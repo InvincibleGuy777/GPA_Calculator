@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="提供GPA计算与数字合法性识别的相关静态方法">
+    <Position X="3.75" Y="5.181" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="dataGridView中数据的操作以及其数据的导入(从Excel)导出(至Excel)&#xD;&#xA;其方法均是静态方法">
+    <Position X="9.876" Y="5.088" Height="0.958" Width="1.7" />
+  </Comment>
+  <Comment CommentText="“关于”子窗口，展示作者信息">
+    <Position X="11.541" Y="3.152" Height="0.404" Width="1.811" />
+  </Comment>
+  <Comment CommentText="“帮助”子窗口，简单展示程序使用方法">
+    <Position X="11.681" Y="1.936" Height="0.337" Width="2.363" />
+  </Comment>
+  <Comment CommentText="图片、dll等资源置于此，尤其是dll资源有巧妙的嵌入方法">
+    <Position X="12.118" Y="4.878" Height="0.652" Width="1.7" />
+  </Comment>
+  <Comment CommentText="将“课程名称”、“学分”和“成绩”整合于一个类，并作为绑定的基元">
+    <Position X="2.347" Y="2.161" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="主窗体，事件处理集中地">
+    <Position X="8.376" Y="2.304" Height="0.502" Width="1.744" />
+  </Comment>
+  <Class Name="GPA_Calculator_Plus.aboutForm">
+    <Position X="10.25" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAACABAACAAEACAAAAAAAAAAAAAABAAIA=</HashCode>
+      <FileName>aboutForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPA_Calculator_Plus.DataGridView_Operate">
+    <Position X="8" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAQAACAAAAAAAAABAAAAAAAIAAAAAACAAAAAAA=</HashCode>
+      <FileName>DataGridView_Operate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPA_Calculator_Plus.MainForm">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <Members>
+      <Field Name="button_Calc" Hidden="true" />
+      <Field Name="button_clear" Hidden="true" />
+      <Field Name="button_delete" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="exitBtn" Hidden="true" />
+      <Field Name="HTCAPTION" Hidden="true" />
+      <Field Name="label_Output" Hidden="true" />
+      <Field Name="label_title" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="miniBtn" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Field Name="panel4" Hidden="true" />
+      <Field Name="panel5" Hidden="true" />
+      <Field Name="Picbox_Logo" Hidden="true" />
+      <Field Name="SC_MOVE" Hidden="true" />
+      <Field Name="textBox_Output" Hidden="true" />
+      <Field Name="toolStrip" Hidden="true" />
+      <Field Name="tsb_about" Hidden="true" />
+      <Field Name="tsb_data_export" Hidden="true" />
+      <Field Name="tsb_data_import" Hidden="true" />
+      <Field Name="tsb_help" Hidden="true" />
+      <Field Name="WM_SYSCOMMAND" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QBQAogBBIKQIAFKJA2CAAGAiAIJgBACBgCgwAQAZMwA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="aboutForm" />
+      <Field Name="helpForm" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="list" />
+      <Field Name="dataBindings" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GPA_Calculator_Plus.GPA_CALC">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>GPA_CALC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPA_Calculator_Plus.helpForm" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAABAACAAAACAAAIAAAAAAAAAABEAAA=</HashCode>
+      <FileName>helpForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPA_Calculator_Plus.InfoVo">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAABAAAAAQAAAAAAAAAAAQAAAAEAgAA=</HashCode>
+      <FileName>InfoVo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPA_Calculator_Plus.Properties.Resources" Collapsed="true">
+    <Position X="12.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAACAAGAAAAABEAAAgUAACAAIAUAAAAAAALA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
